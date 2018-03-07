@@ -1,0 +1,6 @@
+[package]
+name = "_022_names_scores"
+version = "0.1.0"
+authors = ["Thomas Milan <tom.milan@gmail.com>"]
+
+[dependencies]
