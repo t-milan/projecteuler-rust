@@ -1,7 +1,0 @@
-[package]
-name = "_015_lattice_paths"
-version = "0.1.0"
-authors = ["Tom"]
-
-[dependencies]
-num = "0.1.41"
