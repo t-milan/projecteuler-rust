@@ -1,0 +1,7 @@
+[package]
+name = "_012_highly_divisible_triangular_number"
+version = "0.1.0"
+authors = ["tom"]
+
+[dependencies]
+primal = "0.2"

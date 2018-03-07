@@ -1,0 +1,24 @@
+extern crate num;
+
+use num::FromPrimitive;
+use num::BigUint;
+
+fn main() {
+    // One must take 20 steps right and 20
+    // steps down. There are C(40,20) ways
+    // to do this. Thus we need to find
+    // 40!/(20! * 20!) = (40..21)/(20!)
+
+    let mut total = BigUint::from_slice(&[1]);
+
+    for number in 21..41 {
+        let number_big: BigUint = FromPrimitive::from_usize(number).unwrap();
+        total *= number_big;
+    }
+    for number in 2..21 {
+        let number_big: BigUint = FromPrimitive::from_usize(number).unwrap();
+        total /= number_big;
+    }
+
+    println!("Hello, {}!", total);
+}

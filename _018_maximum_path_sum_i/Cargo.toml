@@ -1,0 +1,6 @@
+[package]
+name = "_018_maximum_path_sum_i"
+version = "0.1.0"
+authors = ["Tom"]
+
+[dependencies]

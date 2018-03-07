@@ -1,0 +1,8 @@
+[package]
+name = "_020_factorial_digit_sum"
+version = "0.1.0"
+authors = ["Tom"]
+
+[dependencies]
+num-bigint = "0.1.41"
+num-traits = "0.1.41"

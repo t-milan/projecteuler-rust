@@ -1,0 +1,6 @@
+[package]
+name = "sum_square_difference_6"
+version = "0.1.0"
+authors = ["Tom"]
+
+[dependencies]

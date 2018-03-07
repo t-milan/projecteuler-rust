@@ -1,0 +1,20 @@
+extern crate num;
+
+use num::BigUint;
+use num::FromPrimitive;
+
+fn main() {
+
+    let mut start: BigUint = FromPrimitive::from_u8(2).unwrap();
+    let start2: BigUint = FromPrimitive::from_u8(2).unwrap();
+    for _ in 0..1000 {
+        start = &start * &start2;
+    }
+
+    sum = start.to_str_radix(10)
+               .chars()
+               .map(|x| char::to_digit(x, 10).unwrap())
+               .fold(0, |x, y| x + y);
+
+    println!("{}", sum);
+}

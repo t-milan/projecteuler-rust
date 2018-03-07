@@ -1,0 +1,7 @@
+[package]
+name = "_021_amicable_numbers"
+version = "0.1.0"
+authors = ["Tom"]
+
+[dependencies]
+primal = "*"

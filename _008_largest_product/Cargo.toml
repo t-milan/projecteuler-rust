@@ -1,0 +1,6 @@
+[package]
+name = "_008_largest_product"
+version = "0.1.0"
+authors = ["Tom"]
+
+[dependencies]

@@ -1,0 +1,7 @@
+[package]
+name = "_051_prime_digit_replacements"
+version = "0.1.0"
+authors = ["tom"]
+
+[dependencies]
+time = "*"
